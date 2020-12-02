@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Send code to reset password</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <style>
+        .navbar-brand{
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .cell {
+            margin: auto;
+            width: 50%;
+            background-color: white;
+            color: black;
+            margin-top: 35px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border-style: solid;
+            box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+        }
+        .cell .create-class{
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+        }
+        .cell .create-class .name{
+            font-weight: bold;
+            font-size: 17px;
+        }   
+        .cell .create-class .btn-group{
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .cell .create-class .form-group{
+            margin-right: 20px;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Code to reset</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="container">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="cell">
+                <form class="create-class" method="POST" action="">
+                    <span class="name">Account name</span>
+                    <div class="form-group">
+                        <input type="text" name="xcas" class="form-control" id="textBox1" placeholder="Account name">
+                    </div>
+                    <span class="name">Your email</span>
+                    <div class="form-group">
+                        <input type="text" name="xcas" class="form-control" id="textBox2" placeholder="Email">
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Send code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

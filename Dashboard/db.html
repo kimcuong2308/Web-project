@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Classroom</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <style>
+        .cell {
+            background-color:aliceblue;
+            color: darkblue;
+            margin-top: 15px;
+            margin-right: 5px;
+            text-align: center;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+        }
+        .cell:hover{
+            box-shadow: 4px 12px 12px 2px rgba(0, 0, 0, 0.3);
+        }
+        .cell .class-info .teacher{
+            margin-top: 10px;
+            font-weight: bold;
+            display: block;
+        }
+        .cell .class-info .subject{
+            font-weight: 800;
+            font-size: 13px;
+        }
+        .cell img {
+            width: 40%;
+        }
+        .navbar-brand{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Classroom</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Join class</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Create class</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log out</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">User</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="cell">
+                    <img src="book.svg">
+                    <div class="class-info">
+                        <span class="subject">Lý thuyết Web</span>
+                        <p class="teacher">Teacher: Mai Văn Mạnh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="cell">
+                    <img src="book.svg">
+                    <div class="class-info">
+                        <span class="subject">Phân tích thiết kế giải thuật</span>
+                        <p class="teacher">Teacher: Trần Lương Quốc Đại</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="cell">
+                    <img src="book.svg">
+                    <div class="class-info">
+                        <span class="subject">Thực hành Web</span>
+                        <p class="teacher">Teacher: Nguyễn Thái Duy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="cell">
+                    <img src="book.svg">
+                    <div class="class-info">
+                        <span class="subject">Thực hành phân tích thiết kế giải thuật</span>
+                        <p class="teacher">Teacher: Trần Lương Quốc Đại</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="cell">
+                    <img src="book.svg">
+                    <div class="class-info">
+                        <span class="subject">Phân tích và thiết kế yêu cầu</span>
+                        <p class="teacher">Teacher: Nguyễn Ngọc Phiên</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

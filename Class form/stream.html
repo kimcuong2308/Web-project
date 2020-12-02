@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stream</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <style>
+        .navbar-brand{
+            margin-left: 10px;
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .navbar_2 .btn-group{
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 46%;
+        }
+        .cell{
+            margin: auto;
+            width: 70%;
+            background-color: white;
+            color: black;
+            margin-top: 35px;
+            padding-bottom: 10px;
+            border-radius: 8px;
+            border-style: solid;
+            box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+        }
+        .cell .poster{
+            margin-top: 17px;
+            margin-left: 25px;
+            margin-bottom: 17px;
+        }
+        .cell .poster .name{
+            font-weight: initial;
+            font-size: 17px;
+        }
+
+        .cell{
+            margin: auto;
+            width: 70%;
+            background-color: white;
+            color: black;
+            margin-top: 35px;
+            padding-bottom: 10px;
+            border-radius: 8px;
+            border-style: solid;
+            box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+        }
+        .cell .posted{
+            margin-top: 17px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 17px;
+        }
+        .cell .posted .author{
+            font-weight: bold;
+            font-size: 17px;
+        }
+		.cell .poster .form-group
+		{
+			margin-right: 15px;
+		}
+    </style>
+
+    <nav class="navbar_1 navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Tên lớp ...</a>
+    </nav>
+    <nav class="navbar_2 navbar-expand-md bg-light navbar-light">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Stream</button>   
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="cell">
+                <form class="poster" method="POST" action="">
+                    <span class="name">Share with your class</span>
+                    <div class="form-group w-90">
+                        <textarea type="text" name="xcas" class="form-control" id="textArea" rows="4"></textarea>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Add file</button>
+                    </div>
+                      
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Cancel</button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Post</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="cell">
+                <div class="posted">
+                    <span class="author">Author name here</span>
+
+                    <div class="content">
+                        <a>Vừa tạo kiểu, lại vừa tạo trend chuẩn Salon, shout out ngay dòng sáp tạo kiểu X-Men Salon Solutions mới với bộ 3 siêu đỉnh nào các ông ơiii:
+                            Thành phần ĐỘC ĐÁO: với đất sét Kaolin, giúp giữ nếp, kiềm dầu chuẩn. 
+                             Hiệu năng giữ nếp cực CHẤT đến 8 tiếng: dù đi học, đi chơi hay hẹn hò, tóc tai vẫn chuẩn soái ca như mới bước ra từ salon. </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="cell">
+                <div class="posted">
+                    <span class="author">Author name here</span>
+
+                    <div class="content">
+                        <a>Chiều tối 1/12, theo thông tin từ Trung tâm kiểm soát dịch bệnh TPHCM, có 2 trong số những người tiếp xúc gần với bệnh nhân 1347 (giáo viên tiếng Anh) đã dương tính với nCov. Trong đó có một nữ học viên làm nail ở huyện Cần Đước, tỉnh Long An.
+                           Chiều ngày 1/12, UBND xã Bình Chánh, huyện Bình Chánh, TPHCM đã có văn bản khẩn thông báo về tình hình bệnh nhân mới nhiễm nCov trên địa bàn. Đây là học viên học tiếng Anh ở Trung tâm Key English do BN 1347 tại Quận 10 dạy.
+                            <a href="https://www.facebook.com/">Facebook</a>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
