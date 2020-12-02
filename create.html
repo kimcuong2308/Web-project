@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create a class</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <style>
+        .navbar-brand{
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .cell {
+            margin: auto;
+            width: 50%;
+            background-color: white;
+            color: black;
+            margin-top: 35px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border-style: solid;
+            box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+        }
+        .cell .create-class{
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+        }
+        .cell .create-class .name{
+            font-weight: bold;
+            font-size: 17px;
+        }   
+        .cell .create-class .btn-group{
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 17px;
+            margin-left: 282px;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Create a class</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="container">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="cell">
+                <div class="create-class">
+                    <span class="name">Class name (required)</span>
+                    <div class="inputBox">
+                        <input type="input" name="" placeholder="Class name" size="55">
+                        <span></span>
+                    </div>
+                    <span class="name">Section</span>
+                    <div class="inputBox">
+                        <input type="input" name="" placeholder="Section" size="55">
+                        <span></span>
+                    </div>
+                    <span class="name">Matter</span>
+                    <div class="inputBox">
+                        <input type="input" name="" placeholder="Matter" size="55">
+                        <span></span>
+                    </div>
+                    <span class="name">Classroom</span>
+                    <div class="inputBox">
+                        <input type="input" name="" placeholder="Classroom" size="55">
+                        <span></span>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Cancel</button>
+                        <button type="button" class="btn btn-primary">Create</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
